@@ -11,4 +11,10 @@ public class HelloController {
     public String info(){
         return "info";
     }
+
+
+    @RequestMapping("/test")
+    public String test(){
+        return "test";
+    }
 }
